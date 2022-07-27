@@ -3,6 +3,13 @@
 This project a clone of the dino game in Google chrome.
 
 
+## How to play
+
+- Press any key to start the game
+- Press space to jump over the obstacles
+- Have fun!
+
+
 ## Screenshot
 
 ![](./assets/images/screenshots/ss-1.png)

@@ -1,0 +1,83 @@
+:root{
+    --mainLight: #f7f7f7;
+    --mainDark: #1C1616;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--mainDark);
+}
+
+.game {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.score {
+    position: absolute;
+    font-size: 5vmin;
+    font-weight: bold;
+    right: 1vmin;
+    top: 1vmin;
+    z-index: 2;
+}
+
+.start__screen {
+    position: absolute;
+    font-size: 6vmin;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.hidden {
+    display: none;
+}
+
+.background {
+    --left: 0;
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    bottom: 0;
+    left: calc(var(--left) * 1%);
+}
+
+.ground {
+    --left: 0;
+    position: absolute;
+    width: 300%;
+    bottom: -6%;
+    left: calc(var(--left) * 1%);
+    z-index: 1;
+}
+
+.character {
+    --bottom: 16;
+    position: absolute;
+    left: 1%;
+    height: 20%;
+    bottom: calc(var(--bottom) * 1%);
+    z-index: 2;
+}
+
+.obstacle {
+    position: absolute;
+    left: calc(var(--left) * 1%);
+    height: 20%;
+    bottom: 15%;
+}

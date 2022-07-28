@@ -27,3 +27,4 @@ This project a clone of the dino game in Google chrome.
 ## Author
 
 - Website - [Adriel Amorim](https://adrielgamorim.github.io/Portfolio/)
+- LinkedIn - [Adriel Amorim](https://www.linkedin.com/in/adrielamorim/)

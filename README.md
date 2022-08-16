@@ -2,6 +2,7 @@
 
 This project a clone of the dino game in Google chrome.
 
+<br />
 
 ## How to play
 
@@ -9,6 +10,7 @@ This project a clone of the dino game in Google chrome.
 - Press space to jump over the obstacles
 - Have fun!
 
+<br />
 
 ## Screenshot
 
@@ -16,15 +18,14 @@ This project a clone of the dino game in Google chrome.
 
 ![](./assets/images/screenshots/ss-2.png)
 
-
+<br />
 
 ## Links
 
 - Live Site URL: [Doggo's Running Adventure](https://adrielgamorim.github.io/doggos-running-adventure/)
 
-
+<br />
 
 ## Author
 
-- Website - [Adriel Amorim](https://adrielgamorim.github.io/Portfolio/)
 - LinkedIn - [Adriel Amorim](https://www.linkedin.com/in/adrielamorim/)
